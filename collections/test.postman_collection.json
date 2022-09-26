@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "1.Authentication",
+			"name": "Authentication",
 			"item": [
 				{
 					"name": "Authentication",
@@ -102,7 +102,7 @@
 			"protocolProfileBehavior": {}
 		},
 		{
-			"name": "2. SD-WAN Fabric Devices",
+			"name": "SD-WAN Fabric Devices",
 			"item": [
 				{
 					"name": "Fabric Devices",
@@ -209,7 +209,7 @@
 			"protocolProfileBehavior": {}
 		},
 		{
-			"name": "3. SD-WAN Device Template",
+			"name": "SD-WAN Device Template",
 			"item": [
 				{
 					"name": "Template Feature",
@@ -270,7 +270,7 @@
 			"protocolProfileBehavior": {}
 		},
 		{
-			"name": "4. SD-WAN Device Policy",
+			"name": "SD-WAN Device Policy",
 			"item": [
 				{
 					"name": "vEdge Template Policy",
