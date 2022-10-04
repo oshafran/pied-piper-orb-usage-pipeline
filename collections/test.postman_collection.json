@@ -325,6 +325,102 @@
 				}
 			],
 			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Business",
+			"item": [
+				{
+					"name": "Get  VPN Template List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list",
+								"site"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get  Site Template List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list",
+								"site"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get  Prefix Template List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list",
+								"site"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get  Device VEdges",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/system/device/vedges",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"system",
+								"device",
+								"vedges"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	],
 	"protocolProfileBehavior": {}
