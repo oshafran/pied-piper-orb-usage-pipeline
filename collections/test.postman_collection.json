@@ -353,6 +353,148 @@
 					"response": []
 				},
 				{
+					"name": "Create Site Template List",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"demo-zone2\",\n  \"description\": \"Desc Not Required\",\n  \"type\": \"site\",\n  \"entries\": [\n    {\n        \"siteId\": \"3-3000\"\n    }\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list",
+								"site"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create VPN Template List",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"demo-zone2\",\n  \"description\": \"Desc Not Required\",\n  \"type\": \"site\",\n  \"entries\": [\n    {\n        \"siteId\": \"3-3000\"\n    }\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/vpn",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list",
+								"vpn"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Site Template List",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site/:id",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list",
+								"site",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete VPN Template List",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site/",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list",
+								"site",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Get  Site Template List",
 					"request": {
 						"method": "GET",
@@ -376,7 +518,7 @@
 					"response": []
 				},
 				{
-					"name": "Get  Prefix Template List",
+					"name": "Get Prefix Template List",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -399,7 +541,7 @@
 					"response": []
 				},
 				{
-					"name": "Get  Device VEdges",
+					"name": "Get Device VEdges",
 					"request": {
 						"method": "GET",
 						"header": [],
