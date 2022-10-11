@@ -12,6 +12,7 @@ jobs:
       - image: alpine:latest
     steps:
       - checkout
+      - run: echo "$VMANAGE"
       - persist_to_workspace:
           root: /root/project
           paths:
