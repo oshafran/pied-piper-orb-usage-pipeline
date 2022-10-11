@@ -2,7 +2,7 @@ version: 2.1
 parameters:
   vmanage_host:
     type: string
-    default: $VMANAGEIP
+    default: $VMANAGEHOST
   vmanage_user:
     type: string
     default: $J_USERNAME
