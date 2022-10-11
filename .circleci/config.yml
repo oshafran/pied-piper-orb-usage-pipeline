@@ -2,13 +2,10 @@ version: 2.1
 parameters:
   vmanage_host:
     type: string
-    default: $VMANAGEHOST
   vmanage_user:
     type: string
-    default: $J_USERNAME
   vmanage_pass:
     type: string
-    default: $J_PASSWORD
 orbs:
   newman: oshafran/oshafran-pied-piper-orb@dev:alpha
 jobs:
