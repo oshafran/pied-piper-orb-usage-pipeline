@@ -29,6 +29,8 @@ workflows:
       - newman/pipeline:
           dir: /root/project/collections
           openapiDir: /root/project/openapi
-          vManageIP: VMANAGEIP
+          vManageIP: << pipeline.parameters.vmanage_host >>
+          vManageUser: << pipeline.parameters.vmanage_user >>
+          vManagePwd: << pipeline.parameters.vmanage_pass >>
           requires: 
             - "Checkout"
