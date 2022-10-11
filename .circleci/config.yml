@@ -1,8 +1,14 @@
 version: 2.1
 parameters:
-  vmanage:
+  vmanage_host:
     type: string
     default: $VMANAGE
+  vmanage_user:
+    type: string
+    default: $J_USERNAME
+  vmanage_pass:
+    type: string
+    default: $J_PASSWORD
 orbs:
   newman: oshafran/oshafran-pied-piper-orb@dev:alpha
 jobs:
@@ -12,7 +18,6 @@ jobs:
       - image: alpine:latest
     steps:
       - checkout
-      - run: echo "<< pipeline.parameters.vmanage >>" > vmanage_ip
       - persist_to_workspace:
           root: /root/project
           paths:
