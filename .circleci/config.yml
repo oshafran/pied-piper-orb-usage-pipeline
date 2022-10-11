@@ -1,4 +1,8 @@
 version: 2.1
+parameters:
+  vmanage:
+    type: string
+    default: $VMANAGE
 orbs:
   newman: oshafran/oshafran-pied-piper-orb@dev:alpha
 jobs:
