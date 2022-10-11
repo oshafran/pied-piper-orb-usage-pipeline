@@ -2,10 +2,13 @@ version: 2.1
 parameters:
   vmanage_host:
     type: string
+    default: ""
   vmanage_user:
     type: string
+    default: ""
   vmanage_pass:
     type: string
+    default: ""
 orbs:
   newman: oshafran/oshafran-pied-piper-orb@dev:alpha
 jobs:
