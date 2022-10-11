@@ -19,6 +19,7 @@ workflows:
       - "Checkout"
       - newman/pipeline:
           dir: /root/project/collections
+          openapiDir: /root/project/openapi
           requires: 
             - "Checkout"
 
