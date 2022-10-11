@@ -19,9 +19,6 @@ workflows:
       - newman/pipeline:
           dir: /root/project/collections
           openapiDir: /root/project/openapi
-          vManageIP:
-            type: env_var_name
-            default: VMANAGEIP
+          vManageIP: VMANAGEIP
           requires: 
             - "Checkout"
-
