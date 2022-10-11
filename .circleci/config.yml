@@ -12,7 +12,7 @@ jobs:
       - image: alpine:latest
     steps:
       - checkout
-      - run: echo "$VMANAGE"
+      - run: echo "<< pipeline.parameters.vmanage >>" > vmanage_ip
       - persist_to_workspace:
           root: /root/project
           paths:
