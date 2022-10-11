@@ -12,7 +12,6 @@ jobs:
           root: /root/project
           paths:
             - ./*
-
 workflows:
   default-pipeline:
     jobs:
