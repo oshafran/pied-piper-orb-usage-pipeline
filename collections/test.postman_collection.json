@@ -50,10 +50,10 @@
 							]
 						},
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/j_security_check",
+							"raw": "https://{{vmanageip}}:{{port}}/j_security_check",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -83,10 +83,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/client/token",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/client/token",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -116,10 +116,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/device",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/device",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -136,10 +136,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/device/monitor",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/device/monitor",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -163,10 +163,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/device/counters",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/device/counters",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -190,10 +190,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/statistics/interface",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/statistics/interface",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -223,10 +223,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/feature",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/feature",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -250,10 +250,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/feature/types",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/feature/types",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -278,10 +278,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/vedge/devices",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/vedge/devices",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -307,10 +307,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -335,10 +335,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list/site",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -373,10 +373,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list/site",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -411,10 +411,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/vpn",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list/vpn",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -440,10 +440,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site/:id",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list/site/:id",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -476,10 +476,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site/",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list/site/",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -500,10 +500,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list/site",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -523,10 +523,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list/site",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/template/policy/list/site",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [
@@ -546,10 +546,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{vmanage}}:{{port}}/dataservice/system/device/vedges",
+							"raw": "https://{{vmanageip}}:{{port}}/dataservice/system/device/vedges",
 							"protocol": "https",
 							"host": [
-								"{{vmanage}}"
+								"{{vmanageip}}"
 							],
 							"port": "{{port}}",
 							"path": [

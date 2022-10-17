@@ -9,7 +9,7 @@ const main = async () => {
   });
   try {
     const res = await instance.post(
-      `https://${process.env.VMANAGE}:${process.env.PORT}/j_security_check`,
+      `https://${process.env.VMANAGEIP}:${process.env.PORT}/j_security_check`,
       new URLSearchParams({
         j_username: process.env.J_USERNAME, //gave the values directly for testing
         j_password: process.env.J_PASSWORD,
@@ -19,7 +19,7 @@ const main = async () => {
 
     console.log("RES: ");
     const res2 = await instance.get(
-      `https://${process.env.VMANAGE}/dataservice/client/token`,
+      `https://${process.env.VMANAGEIP}/dataservice/client/token`,
       {
         headers: {
           Cookie: cookie,
