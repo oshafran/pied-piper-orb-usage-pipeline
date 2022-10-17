@@ -19,5 +19,6 @@ workflows:
       - newman/pipeline:
           dir: /root/project/collections
           openapiDir: /root/project
+          vManageIP: "" 
           requires: 
             - "Checkout"
