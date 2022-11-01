@@ -19,7 +19,7 @@ const main = async () => {
 
     console.log("RES: ");
     const res2 = await instance.get(
-      `https://${process.env.VMANAGE}/dataservice/client/token`,
+      `https://${process.env.VMANAGEIP}/dataservice/client/token`,
       {
         headers: {
           Cookie: cookie,
