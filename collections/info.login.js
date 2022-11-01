@@ -9,7 +9,7 @@ const main = async () => {
   });
   try {
     const res = await instance.post(
-      `https://${process.env.VMANAGE}:${process.env.PORT}/j_security_check`,
+      `https://${process.env.VMANAGEIP}:${process.env.PORT || "443"}/j_security_check`,
       new URLSearchParams({
         j_username: process.env.J_USERNAME, //gave the values directly for testing
         j_password: process.env.J_PASSWORD,
