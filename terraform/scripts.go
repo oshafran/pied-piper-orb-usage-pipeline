@@ -1,4 +1,5 @@
 
+
 func CustomControl(body map[string]interface{}, plan vpnSiteListResourceModel) map[string]interface{} {
 	body["defaultAction"] = map[string]interface{}{
 		"type": "reject",
