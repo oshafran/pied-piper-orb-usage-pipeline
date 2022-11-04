@@ -31,6 +31,5 @@ workflows:
       - newman/postman:
           dir: /root/project/collections
           openapiDir: /root/project/openapi
-          vManageIP: "" 
           requires: 
             - "Checkout"
