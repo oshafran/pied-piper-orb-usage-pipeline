@@ -22,12 +22,6 @@ workflows:
           vManageIP: "" 
           requires: 
             - "Checkout"
-      - newman/compatibility:
-          dir: /root/project/collections
-          openapiDir: /root/project/openapi
-          vManageIP: "" 
-          requires: 
-            - "Checkout"
       - newman/postman:
           dir: /root/project/collections
           openapiDir: /root/project/openapi
